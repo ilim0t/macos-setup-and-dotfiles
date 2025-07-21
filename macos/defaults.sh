@@ -20,6 +20,8 @@ defaults write com.apple.dock largesize -int 96
 # └──────────────────────────────────────
 # メニューバーの時計に秒表示を有効化
 defaults write com.apple.menuextra.clock ShowSeconds -bool true
+# Bluetooth アイコンをメニューバーに「表示する」設定に変更
+defaults -currentHost write com.apple.controlcenter.plist Bluetooth -int 18
 
 # ┌──────────────────────────────────────
 # │ Finder 表示設定
@@ -54,3 +56,4 @@ sudo nvram StartupMute=%01
 killall Dock           || true
 killall SystemUIServer || true
 killall Finder         || true
+killall ControlCenter  || true
