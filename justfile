@@ -12,6 +12,16 @@ install-brew:
     eval "$$(/opt/homebrew/bin/brew shellenv)"
     @echo "✅ Homebrew is ready."
 
+install-rosetta:
+	@echo "⚙️  Checking Rosetta 2…"
+	@if [ "$(uname -m)" = "arm64" ] && ! pgrep oahd >/dev/null 2>&1; then \
+		echo "→ Installing Rosetta 2…"; \
+		sudo softwareupdate --install-rosetta --agree-to-license; \
+	else \
+		echo "→ Rosetta 2 already installed or not needed."; \
+	fi
+
+
 # 1) Brewfile によるパッケージ一括インストール
 install-packages: install-brew
     @echo "🔧 Installing Homebrew packages..."
