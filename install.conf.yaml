@@ -1,5 +1,6 @@
 - link:
     ~/.gitconfig: dotfiles/gitconfig
+    ~/.ssh/config: dotfiles/ssh/config
   # ~/Library/Application Support/BetterTouchTool/presets.json: dotfiles/btt/presets.json
   # ~/.config/Code/User/settings.json: dotfiles/vscode/settings.json
   # ~/.config/Code/User/keybindings.json: dotfiles/vscode/keybindings.json
