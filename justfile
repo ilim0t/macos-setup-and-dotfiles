@@ -41,10 +41,10 @@ apply-macos:
     @echo "✅ macOS defaults applied."
 
 # 3) dotbot を使った設定ファイル同期
-link-dotfiles:
-    @echo "📂 Linking dotfiles via dotbot..."
-    bash scripts/install-dotfiles.sh
-    @echo "✅ Dotfiles linked."
+link-dotfiles: install-brew
+	@echo "📂 Linking dotfiles via dotbot..."
+	dotbot -c install.conf.yaml
+	@echo "✅ Dotfiles linked."
 
 # 4) Cask 非提供アプリのインストール（.dmg/.pkg）
 install-extras:
