@@ -10,6 +10,7 @@ brew  "coreutils"            # GNU coreutils（ls、mv など上位互換）
 brew  "htop"                 # プロセス・モニタリング
 brew  "unzip"                # ZIP 解凍
 brew  "vim"                  # CLI テキストエディタ
+brew  "dotbot"               # 設定管理ツール
 
 ##### 🛠️ ターミナル & シェル
 brew  "fish"                 # Fish Shell
@@ -43,7 +44,3 @@ cask  "orbstack"             # OrbStack
 
 ##### 🔤 フォント & テーマ
 # フォントは後日検討のためここでは省略
-
-
-##### カテゴリ分類を未実施
-brew "dotbot"
