@@ -2,7 +2,6 @@
 brew  "git"                  # Git バージョン管理
 brew  "just"                 # タスクランナー
 brew  "mise"                 # 多言語バージョン管理 (Rust/asdf 互換)
-brew  "uv"                   # Python パッケージ管理 (pip 8–10×速)
 brew  "gh"                   # GitHub CLI
 brew  "tree"                 # ディレクトリ構造表示
 brew  "wget"                 # ダウンロード
