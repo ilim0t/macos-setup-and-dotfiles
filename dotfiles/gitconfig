@@ -1,11 +1,11 @@
 [gpg]
-	format = ssh
+  format = ssh
 [gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 [commit]
-	gpgsign = true
+  gpgsign = true
 [user]
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK4b9euT5p+GVmiKl1FPFmkLVHSgMjf6iPhuFbZvL9/4
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK4b9euT5p+GVmiKl1FPFmkLVHSgMjf6iPhuFbZvL9/4
   name  = ilim
   email = ilim0t14@gmail.com
 [tag]
