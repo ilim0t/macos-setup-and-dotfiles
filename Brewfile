@@ -34,7 +34,6 @@ cask  "1password"            # 1Password
 
 ##### 🎛️ 入力支援 / ドライバ
 cask  "google-japanese-ime"  # Google 日本語入力
-cask  "karabiner-elements"   # Karabiner‑Elements
 cask  "bettertouchtool"      # BetterTouchTool
 cask  "logi-options-plus"    # Logi Options+
 cask  "displaylink"          # DisplayLink Manager
