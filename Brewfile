@@ -1,3 +1,5 @@
+tap   "beeftornado/rmtree"   # Homebrew rmtree コマンド
+
 ##### 🖥️ システム & パッケージ管理
 brew  "git"                  # Git バージョン管理
 brew  "just"                 # タスクランナー
