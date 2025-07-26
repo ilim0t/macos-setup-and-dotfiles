@@ -14,6 +14,8 @@ brew  "dotbot"               # 設定管理ツール
 
 ##### 🛠️ ターミナル & シェル
 brew  "fish"                 # Fish Shell
+brew  "fisher"               # Fish プラグインマネージャ
+brew  "fzf"                  # ファジーファインダー
 brew  "tmux"                 # ターミナル多重化
 brew  "tig"                  # Git TUI
 brew  "lazydocker"           # Docker TUI

@@ -44,6 +44,20 @@ link-dotfiles: install-brew
 	dotbot -c install.conf.yaml
 	@echo "✅ Dotfiles linked."
 
+# Fish shellの設定
+setup-fish: install-packages
+    #!/usr/bin/env bash
+    echo "🐟 Setting up Fish shell..."
+    if ! grep -q "$(brew --prefix)/bin/fish" /etc/shells; then
+        echo "→ Adding Fish to /etc/shells (requires sudo)..."
+        echo "$(brew --prefix)/bin/fish" | sudo tee -a /etc/shells
+    fi
+    if [[ "$SHELL" != "$(brew --prefix)/bin/fish" ]]; then
+        echo "→ Changing default shell to Fish (requires password)..."
+        chsh -s "$(brew --prefix)/bin/fish"
+    fi
+    echo "✅ Fish shell setup complete!"
+
 # フルセットアップ：上記を順に実行
-setup: install-packages apply-macos link-dotfiles
+setup: install-packages apply-macos link-dotfiles setup-fish
     @echo "🎉 Full setup complete!"

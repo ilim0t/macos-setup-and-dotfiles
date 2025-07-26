@@ -1,6 +1,8 @@
 - link:
     ~/.gitconfig: dotfiles/gitconfig
     ~/.ssh/config: dotfiles/ssh/config
+    ~/.config/fish/config.fish: dotfiles/config/fish/config.fish
+    ~/.config/fish/fish_plugins: dotfiles/config/fish/fish_plugins
   # ~/Library/Application Support/BetterTouchTool/presets.json: dotfiles/btt/presets.json
   # ~/.config/Code/User/settings.json: dotfiles/vscode/settings.json
   # ~/.config/Code/User/keybindings.json: dotfiles/vscode/keybindings.json
