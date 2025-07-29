@@ -46,4 +46,6 @@ cask  "displaylink"          # DisplayLink Manager
 cask  "orbstack"             # OrbStack
 
 ##### 🔤 フォント & テーマ
-# フォントは後日検討のためここでは省略
+cask "font-cica"                # Cica – プログラミング用等幅フォント
+cask "font-source-han-code-jp"  # Adobe Source Han Sans をベースにしたコーディング向け日本語フォント 
+cask "font-hackgen"             # Hack＋源ノ角ゴシック由来のプログラミング用日本語フォント
