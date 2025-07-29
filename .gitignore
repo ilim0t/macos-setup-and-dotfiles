@@ -1,5 +1,1 @@
 .tmp/
-dotfiles/config/fish/fish_variables
-dotfiles/config/fish/functions
-dotfiles/config/fish/completions
-dotfiles/config/fish/conf.d
