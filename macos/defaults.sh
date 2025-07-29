@@ -47,7 +47,9 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerHorizSwipeGe
 # │ システム全体設定
 # └──────────────────────────────────────
 # 起動音（チャイム）をミュートに設定
-sudo nvram StartupMute=%01
+if [ "$(nvram StartupMute 2>/dev/null)" != "StartupMute	%01" ]; then
+    sudo nvram StartupMute=%01
+fi
 
 # ┌──────────────────────────────────────
 # │ プロセス再起動
