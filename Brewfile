@@ -21,8 +21,7 @@ brew  "fzf"                  # ファジーファインダー
 brew  "tmux"                 # ターミナル多重化
 brew  "tig"                  # Git TUI
 brew  "lazydocker"           # Docker TUI
-brew  "direnv"               # ディレクトリ別環境変数管理
-brew  "trash-cli"            # ゴミ箱コマンド
+brew  "trash"                # ファイルゴミ箱移動
 brew  "ncdu"                 # ディスク使用量可視化
 cask  "warp"                 # Warp ターミナル (GPU描画)
 
