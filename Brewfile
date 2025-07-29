@@ -39,7 +39,7 @@ cask  "1password"            # 1Password
 ##### 🎛️ 入力支援 / ドライバ
 cask  "google-japanese-ime"  # Google 日本語入力
 cask  "bettertouchtool"      # BetterTouchTool
-cask  "logi-options-plus"    # Logi Options+
+cask  "logi-options+"        # Logi Options+
 cask  "displaylink"          # DisplayLink Manager
 
 ##### 🐳 コンテナ
