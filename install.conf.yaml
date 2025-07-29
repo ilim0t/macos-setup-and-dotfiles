@@ -1,7 +1,6 @@
-- create:
-    - ~/.config/git
-    - ~/.ssh
-    - ~/.config/fish
+- defaults:
+    link:
+      create: true
 
 - link:
     # --- Git ---
@@ -14,3 +13,6 @@
     # --- Fish shell ---
     ~/.config/fish/config.fish:             dotfiles/config/fish/config.fish
     ~/.config/fish/fish_plugins:            dotfiles/config/fish/fish_plugins
+
+    # --- Mise ---
+    ~/.config/mise/config.toml:             dotfiles/config/mise/config.toml
