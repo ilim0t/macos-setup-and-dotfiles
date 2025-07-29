@@ -1,8 +1,16 @@
+- create:
+    - ~/.config/git
+    - ~/.ssh
+    - ~/.config/fish
+
 - link:
-    ~/.gitconfig: dotfiles/gitconfig
-    ~/.ssh/config: dotfiles/ssh/config
-    ~/.config/fish/config.fish: dotfiles/config/fish/config.fish
-    ~/.config/fish/fish_plugins: dotfiles/config/fish/fish_plugins
-  # ~/Library/Application Support/BetterTouchTool/presets.json: dotfiles/btt/presets.json
-  # ~/.config/Code/User/settings.json: dotfiles/vscode/settings.json
-  # ~/.config/Code/User/keybindings.json: dotfiles/vscode/keybindings.json
+    # --- Git ---
+    ~/.config/git/config:                   dotfiles/config/git/config
+    ~/.config/git/ignore:                   dotfiles/config/git/ignore
+
+    # --- SSH ---
+    ~/.ssh/config:                          dotfiles/ssh/config
+    
+    # --- Fish shell ---
+    ~/.config/fish/config.fish:             dotfiles/config/fish/config.fish
+    ~/.config/fish/fish_plugins:            dotfiles/config/fish/fish_plugins
