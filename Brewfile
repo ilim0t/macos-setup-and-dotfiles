@@ -7,14 +7,17 @@ brew "mise"                 # 多言語バージョン管理 (Rust/asdf 互換)
 brew "gh"                   # GitHub CLI
 brew "tree"                 # ディレクトリ構造表示
 brew "wget"                 # ダウンロード
-brew "curl"                 # URL クライアント
 brew "coreutils"            # GNU coreutils（ls、mv など上位互換）
 brew "htop"                 # プロセス・モニタリング
-brew "unzip"                # ZIP 解凍
 brew "vim"                  # CLI テキストエディタ
 brew "dotbot"               # 設定管理ツール
+brew "make"                 # ビルド自動化ツール
+brew "gnupg"                # GnuPG (データの暗号化・署名)
+brew "jq"                   # JSON プロセッサ
+brew "rsync"                # 高機能ファイル転送
 
 ##### 🛠️ ターミナル & シェル
+brew "bash"                 # Bash シェル（最新版）
 brew "fish"                 # Fish Shell
 brew "fisher"               # Fish プラグインマネージャ
 brew "fzf"                  # ファジーファインダー
@@ -24,6 +27,7 @@ brew "lazydocker"           # Docker TUI
 brew "trash"                # ファイルゴミ箱移動
 brew "ncdu"                 # ディスク使用量可視化
 cask "warp"                 # Warp ターミナル (GPU描画)
+brew "shellcheck"           # シェルスクリプト静的解析
 
 ##### 🖋️ エディタ / IDE
 cask "visual-studio-code"   # VSCode
@@ -43,6 +47,9 @@ cask "displaylink"          # DisplayLink Manager
 
 ##### 🐳 コンテナ
 cask "orbstack"             # OrbStack
+
+##### 🛠️ 開発ツール
+cask "android-platform-tools" # Android SDK Platform-Tools (adb, fastboot)
 
 ##### 🔤 フォント & テーマ
 cask "font-cica"                # Cica – プログラミング用等幅フォント
