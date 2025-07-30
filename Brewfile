@@ -1,35 +1,33 @@
 tap "beeftornado/rmtree"   # Homebrew rmtree コマンド
 
-##### 🖥️ システム & パッケージ管理
-brew "git"                  # Git バージョン管理
+##### 🖥️ パッケージ & 設定管理
+brew "dotbot"               # 設定管理ツール
 brew "just"                 # タスクランナー
 brew "mise"                 # 多言語バージョン管理 (Rust/asdf 互換)
-brew "gh"                   # GitHub CLI
+
+##### 🛠️ CLI ユーティリティ
+brew "coreutils"            # GNU coreutils（ls、mv など上位互換）
 brew "tree"                 # ディレクトリ構造表示
 brew "wget"                 # ダウンロード
-brew "coreutils"            # GNU coreutils（ls、mv など上位互換）
 brew "htop"                 # プロセス・モニタリング
-brew "vim"                  # CLI テキストエディタ
-brew "dotbot"               # 設定管理ツール
+brew "trash"                # ファイルゴミ箱移動
+brew "ncdu"                 # ディスク使用量可視化
 brew "make"                 # ビルド自動化ツール
 brew "gnupg"                # GnuPG (データの暗号化・署名)
 brew "jq"                   # JSON プロセッサ
 brew "rsync"                # 高機能ファイル転送
 
-##### 🛠️ ターミナル & シェル
+##### 🐚 ターミナル & シェル
 brew "bash"                 # Bash シェル（最新版）
 brew "fish"                 # Fish Shell
 brew "fisher"               # Fish プラグインマネージャ
 brew "fzf"                  # ファジーファインダー
 brew "tmux"                 # ターミナル多重化
-brew "tig"                  # Git TUI
-brew "lazydocker"           # Docker TUI
-brew "trash"                # ファイルゴミ箱移動
-brew "ncdu"                 # ディスク使用量可視化
 cask "warp"                 # Warp ターミナル (GPU描画)
 brew "shellcheck"           # シェルスクリプト静的解析
 
 ##### 🖋️ エディタ / IDE
+brew "vim"                  # CLI テキストエディタ
 cask "visual-studio-code"   # VSCode
 cask "cursor"               # Cursor (VSCode フォーク)
 
@@ -49,6 +47,10 @@ cask "displaylink"          # DisplayLink Manager
 cask "orbstack"             # OrbStack
 
 ##### 🛠️ 開発ツール
+brew "git"                  # Git バージョン管理
+brew "gh"                   # GitHub CLI
+brew "tig"                  # Git TUI
+brew "lazydocker"           # Docker TUI
 cask "android-platform-tools" # Android SDK Platform-Tools (adb, fastboot)
 
 ##### 🔤 フォント & テーマ
