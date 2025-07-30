@@ -58,6 +58,7 @@ just link-dotfiles    # dotfiles の配置のみ
 - `Brewfile` - インストールするパッケージの一覧
 - `install.conf.yaml` - dotbot の設定ファイル
 - `justfile` - タスクランナーの設定
+- `MANUAL_SETUP.md` - 手動で行う必要のある設定の手順
 - `dotfiles/` - 各種設定ファイル
 - `macos/` - macOS 関連の設定
   - `defaults.sh` - macOS システム設定スクリプト
