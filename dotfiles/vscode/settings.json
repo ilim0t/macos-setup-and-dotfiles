@@ -1,0 +1,31 @@
+{
+  // === 全般 (General) ===
+  //   "window.zoomLevel": 0,                                 // エディタ全体の拡大縮小レベルをデフォルト（0）に維持
+  //
+  // === エディタ (Editor) ===
+  //   "editor.fontFamily": "Ricty,Cica,Myrica M,Source Han Code JP,Cascadia Code,Fira Code,SF Mono Square",  // 日本語／英語混在でも見やすい等幅フォント群
+  //   "editor.fontSize": 15,                                // 文字サイズを15pxに統一して視認性を確保
+  //   "editor.fontLigatures": true,                         // コード記号のリガチャ（=> → など）を有効化
+  //   "editor.renderWhitespace": "boundary",                // 単語間やインデントのみ空白可視化（余分なスペースは非表示）
+  //   "editor.minimap.renderCharacters": false,             // ミニマップは文字ではなくブロック表示にして軽量化
+  //   "editor.formatOnType": true,                          // タイプ中に自動でフォーマットを適用、一貫性を保つ
+  //   "editor.suggestSelection": "first",                   // インテリセンスの初期選択を常に先頭に固定
+  //   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // Intellicodeが選択動作を自動上書き
+  //
+  // === 統合ターミナル (Terminal) ===
+  //   "terminal.integrated.fontFamily": "Ricty for Powerline, SF Mono Square", // Powerline対応フォントでプロンプト記号を崩さない
+  //   "terminal.integrated.fontSize": 15,                   // エディタと同じサイズで統一感を持たせる
+  "terminal.integrated.cursorBlinking": true, // カーソル点滅を有効化して視認性向上
+  "terminal.integrated.cursorStyle": "line", // 縦線カーソルでエディタと同じスタイルに
+  //
+  // === ワークベンチ／テーマ (Workbench & Theme) ===
+  //
+  // === ファイル／自動保存 (Files & Auto Save) ===
+  "files.autoSave": "afterDelay", // 一定時間操作がなければ自動保存でデータ保護
+  //
+  //   // === その他 (Others) ===
+  //   "files.associations": {                               // コメント付きJSONなど、拡張子ごとの言語関連付け
+  //     "*.json": "jsonc"
+  //   },
+  "meaningless": "VSCodeが自動で追記する際，最終行に書かれるようする" // 自動追記用のダミーエントリ
+}
