@@ -16,7 +16,7 @@
 
     # --- Mise ---
     ~/.config/mise/config.toml:             dotfiles/config/mise/config.toml
-    
+
     # --- VSCode ---
     ~/Library/Application Support/Code/User/settings.json:  dotfiles/vscode/settings.json
 

@@ -1,5 +1,5 @@
 default:
-  @just --list
+    @just --list
 
 # Homebrew インストール（存在しなければ自動で導入）
 install-brew:
@@ -25,7 +25,6 @@ install-rosetta:
     fi
     echo "✅ Rosetta 2 status OK."
 
-
 # Brewfile によるパッケージ一括インストール
 install-packages: install-brew install-rosetta
     @echo "🔧 Installing Homebrew packages from Brewfile..."
@@ -40,9 +39,9 @@ apply-macos:
 
 # dotbot を使った設定ファイル同期
 link-dotfiles: install-brew
-	@echo "📂 Linking dotfiles via dotbot..."
-	dotbot -c install.conf.yaml
-	@echo "✅ Dotfiles linked."
+    @echo "📂 Linking dotfiles via dotbot..."
+    dotbot -c install.conf.yaml
+    @echo "✅ Dotfiles linked."
 
 # Fish shellの設定
 setup-fish: install-packages
