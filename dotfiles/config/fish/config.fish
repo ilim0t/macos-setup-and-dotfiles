@@ -16,5 +16,8 @@ if command -q brew
 end
 
 if status is-interactive
+    set -g theme_color_scheme solarized
+    set -g fish_prompt_pwd_dir_length 0
+    
     # Commands to run in interactive sessions can go here
 end
