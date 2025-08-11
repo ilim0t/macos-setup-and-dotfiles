@@ -16,6 +16,7 @@ brew "make"                 # ビルド自動化ツール
 brew "gnupg"                # GnuPG (データの暗号化・署名)
 brew "jq"                   # JSON プロセッサ
 brew "rsync"                # 高機能ファイル転送
+brew "bat"                  # cat の上位互換（構文ハイライト・行番号付き）
 
 ##### 🐚 ターミナル & シェル
 brew "bash"                 # Bash シェル（最新版）
