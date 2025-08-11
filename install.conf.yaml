@@ -19,6 +19,7 @@
 
     # --- VSCode ---
     ~/Library/Application Support/Code/User/settings.json:  dotfiles/vscode/settings.json
+    ~/Library/Application Support/Cursor/User/settings.json:  dotfiles/vscode/settings.json
 
     # --- tmux ---
     ~/.tmux.conf:                           dotfiles/tmux.conf
