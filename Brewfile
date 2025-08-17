@@ -24,7 +24,7 @@ brew "fish"                 # Fish Shell
 brew "fisher"               # Fish プラグインマネージャ
 brew "fzf"                  # ファジーファインダー
 brew "tmux"                 # ターミナル多重化
-cask "warp"                 # Warp ターミナル (GPU描画)
+cask "ghostty"              # ターミナルエミュレータ
 brew "shellcheck"           # シェルスクリプト静的解析
 
 ##### 🖋️ エディタ / IDE

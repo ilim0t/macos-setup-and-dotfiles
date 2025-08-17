@@ -1,0 +1,12 @@
+# テーマ
+theme = "Japanesque"
+
+# フォント
+font-family = "Cica"
+font-size = 16
+
+# macOS タイトルバー
+macos-titlebar-proxy-icon = "hidden"
+
+# キーバインド（クイックターミナル）
+keybind = "global:alt+space=toggle_quick_terminal"
