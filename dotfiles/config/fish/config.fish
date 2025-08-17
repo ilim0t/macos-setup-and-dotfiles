@@ -16,6 +16,10 @@ if command -q brew
 end
 
 if status is-interactive
+    # エディタ設定
+    set -gx EDITOR nvim
+    set -gx VISUAL nvim
+    
     set -g theme_color_scheme solarized
     set -g fish_prompt_pwd_dir_length 0
 

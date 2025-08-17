@@ -2,6 +2,9 @@
     link:
       create: true
 
+- shell:
+  - [test -d ~/.config/nvim || git clone https://github.com/LazyVim/starter ~/.config/nvim, Installing LazyVim if not present]
+
 - link:
     # --- Git ---
     ~/.config/git/config:                   dotfiles/config/git/config
@@ -23,3 +26,6 @@
 
     # --- tmux ---
     ~/.tmux.conf:                           dotfiles/tmux.conf
+
+    # --- Neovim ---
+    ~/.config/nvim/lua/config/options.lua:          dotfiles/config/nvim/options.lua

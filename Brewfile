@@ -28,7 +28,7 @@ cask "warp"                 # Warp ターミナル (GPU描画)
 brew "shellcheck"           # シェルスクリプト静的解析
 
 ##### 🖋️ エディタ / IDE
-brew "vim"                  # CLI テキストエディタ
+brew "neovim"               # Neovim (vim の上位互換)
 cask "visual-studio-code"   # VSCode
 cask "cursor"               # Cursor (VSCode フォーク)
 
