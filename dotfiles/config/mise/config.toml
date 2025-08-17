@@ -1,4 +1,6 @@
 [tools]
 node = "latest"
+"npm:@anthropic-ai/claude-code" = "latest"
+"npm:@openai/codex" = "latest"
 python = "latest"
 uv = "latest"
