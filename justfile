@@ -55,6 +55,17 @@ setup-fish: install-packages
         echo "→ Changing default shell to Fish (requires password)..."
         chsh -s "$(brew --prefix)/bin/fish"
     fi
+    echo "→ Updating fish plugins via fisher..."
+    # fisher が存在する場合、Fish のログインシェル内で update を実行
+    if command -v fish >/dev/null 2>&1; then
+        if fish -lc 'type -q fisher'; then
+            fish -lc 'fisher update'
+        else
+            echo "⚠️  fisher not found in fish. Install via Homebrew (brew install fisher) then re-run this step."
+        fi
+    else
+        echo "⚠️  fish command not found; skipping fisher update."
+    fi
     echo "✅ Fish shell setup complete!"
 
 # フルセットアップ：上記を順に実行

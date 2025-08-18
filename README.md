@@ -51,6 +51,7 @@ just install-rosetta  # Rosetta 2 のインストールのみ
 just install-packages # パッケージのインストールのみ
 just apply-macos      # macOS 設定の適用のみ
 just link-dotfiles    # dotfiles の配置のみ
+just setup-fish       # Fish のログインシェル化 + プラグイン同期
 ```
 
 ## ファイル構成
