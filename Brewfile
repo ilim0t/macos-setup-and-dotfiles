@@ -26,6 +26,7 @@ brew "fzf"                  # ファジーファインダー
 brew "tmux"                 # ターミナル多重化
 cask "ghostty"              # ターミナルエミュレータ
 brew "shellcheck"           # シェルスクリプト静的解析
+brew "zellij"               # Rust 製ターミナル多重化
 
 ##### 🖋️ エディタ / IDE
 brew "neovim"               # Neovim (vim の上位互換)
