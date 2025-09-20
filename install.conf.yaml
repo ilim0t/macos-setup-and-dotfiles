@@ -33,3 +33,6 @@
 
     # --- Neovim ---
     ~/.config/nvim/lua/config/options.lua:          dotfiles/config/nvim/options.lua
+
+    # --- Claude ---
+    ~/.claude/settings.json:               dotfiles/config/claude/settings.json
