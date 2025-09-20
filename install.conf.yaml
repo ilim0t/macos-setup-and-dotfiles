@@ -28,9 +28,6 @@
     # --- Ghostty ---
     ~/.config/ghostty/config:               dotfiles/config/ghostty/config
 
-    # --- tmux ---
-    ~/.tmux.conf:                           dotfiles/tmux.conf
-
     # --- Neovim ---
     ~/.config/nvim/lua/config/options.lua:          dotfiles/config/nvim/options.lua
 
