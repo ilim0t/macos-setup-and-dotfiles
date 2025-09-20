@@ -20,9 +20,10 @@
     # --- Mise ---
     ~/.config/mise/config.toml:             dotfiles/config/mise/config.toml
 
-    # --- VSCode ---
+    # --- VSCode & Cursor ---
     ~/Library/Application Support/Code/User/settings.json:  dotfiles/vscode/settings.json
     ~/Library/Application Support/Cursor/User/settings.json:  dotfiles/vscode/settings.json
+    ~/.cursor/mcp.json:                     dotfiles/cursor/mcp.json
 
     # --- Ghostty ---
     ~/.config/ghostty/config:               dotfiles/config/ghostty/config
