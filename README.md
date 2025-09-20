@@ -17,8 +17,8 @@ macOS の開発環境セットアップを自動化するスクリプト群で�
 
 1. リポジトリをクローン:
 ```bash
-git clone https://github.com/ilim0t/setup-env.git
-cd setup-env
+git clone https://github.com/ilim0t/macos-setup-and-dotfiles.git
+cd macos-setup-and-dotfiles
 ```
 
 2. 一時的な `just` バイナリのインストール:
